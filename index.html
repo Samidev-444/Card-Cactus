@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card Cactus</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap");
+
+      * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        font-family: "Sora";
+      }
+
+      body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        width: 100%;
+        background: #fafaf9;
+        padding: 0 30px;
+        flex-direction: column;
+      }
+
+      .card {
+        box-shadow: 10px 10px 15px 2px rgba(17, 23, 41, 0.05);
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+      }
+
+      img {
+        width: 100%;
+        height: 152px;
+        border-radius: 13px;
+      }
+
+      figure {
+        padding: 16px 16px 0px 16px;
+      }
+
+      .container {
+        width: 368px;
+        border-radius: 10px 10px 0 0;
+        background: #ffffff;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        padding-bottom: 20px;
+      }
+
+      .tag {
+        background: #e6d6fc;
+        padding: 4px 16px;
+        border-radius: 20px;
+        color: #883ae1;
+        font-size: 0.625rem;
+        font-weight: 700;
+        margin: 0 0 7px 16px ;
+      }
+
+      .content {
+        display: grid;
+        gap: 6px;
+        padding: 0 16px;
+      }
+
+      .title {
+        font-size: 1.125rem;
+        font-weight: 650;
+        color: #20293a;
+
+      }
+
+      .Description {
+        color: #6c727f;
+        font-size: 0.875rem;
+        font-weight: 300;
+        padding: 0 16px 0 0;
+        line-height: 1.23rem;
+      }
+
+
+      .autor {
+        border-top: solid 1px #d3d5d881;
+        width: 368px;
+        display: flex;
+        color: #6c727f;
+        font-size: 0.75rem;
+        padding: 20px 16px;
+        border-radius: 0 0 10px 10px;
+        box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
+        background: #ffffff;
+      }
+
+    </style>
+  </head>
+
+
+  <body>
+  <div class="card">
+    <div class="container">
+      <figure>
+        <img src="cactus_img.jpg" alt="cactus_img" />
+      </figure>
+      <span class="tag">Design</span>
+      <div class="content">
+        <span class="title">Embracing Minimalism</span>
+        <p class="Description">
+          From minimalist sculptures to minimalist paintings, this blog will
+          inspire you to appreciate the beauty that lies in simplicity.
+        </p>
+      </div>
+    </div>
+      <span class="autor">Annie Spratt</span>
+  </div>
+
+  </body>
+
+  
+</html>
