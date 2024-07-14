@@ -1,1 +1,2 @@
-<img src="Design.png" alt="cactus img" height="110px" align="Center">
+<h2>🎨 Design</h2>
+<img src="Design.png" alt="cactus img" align="Center">
